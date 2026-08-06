@@ -8,10 +8,10 @@
             <wheel_separation>0.35</wheel_separation>
             <wheel_radius>0.05</wheel_radius>
             <!--INPUT-->
-            <topic>cmd_vel</topic>
+            <topic>/cmd_vel</topic>
             <!--OUTPUT-->
             <odom_topic>odom</odom_topic>
-            <tf_topic>tf</tf_topic>
+            <tf_topic>/tf</tf_topic>
 
             <frame_id>odom</frame_id>
             <child_frame_id>base_link</child_frame_id>

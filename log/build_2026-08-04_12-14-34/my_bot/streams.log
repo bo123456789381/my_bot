@@ -1,0 +1,76 @@
+[0.046s] Invoking command in '/home/bo/dev_ws/src/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ros2_ws/install/my_robot_controller:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bo/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bo/dev_ws/src/my_bot/install/my_bot
+[0.167s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.168s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.168s]   CMake.
+[0.168s] 
+[0.168s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.168s]   to tell CMake that the project requires at least <min> but has been updated
+[0.168s]   to work with policies introduced by <max> or earlier.
+[0.168s] 
+[0.168s] [0m
+[0.602s] -- The C compiler identification is GNU 15.2.0
+[1.007s] -- The CXX compiler identification is GNU 15.2.0
+[1.048s] -- Detecting C compiler ABI info
+[1.257s] -- Detecting C compiler ABI info - done
+[1.282s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.285s] -- Detecting C compile features
+[1.286s] -- Detecting C compile features - done
+[1.326s] -- Detecting CXX compiler ABI info
+[1.536s] -- Detecting CXX compiler ABI info - done
+[1.562s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.562s] -- Detecting CXX compile features
+[1.564s] -- Detecting CXX compile features - done
+[1.709s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[2.529s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.720s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[3.006s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.048s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.049s] -- Configured cppcheck include dirs: 
+[3.049s] -- Configured cppcheck exclude dirs and/or files: 
+[3.066s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.067s] -- Configured cpplint exclude dirs and/or files: 
+[3.072s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.073s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.081s] -- Added test 'lint_cmake' to check CMake code style
+[3.088s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.107s] -- Added test 'uncrustify' to check C / C++ code style
+[3.107s] -- Configured uncrustify additional arguments: 
+[3.112s] -- Added test 'xmllint' to check XML markup files
+[3.122s] -- Configuring done (3.0s)
+[3.133s] -- Generating done (0.0s)
+[3.137s] -- Build files have been written to: /home/bo/dev_ws/src/my_bot/build/my_bot
+[3.153s] Invoked command in '/home/bo/dev_ws/src/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ros2_ws/install/my_robot_controller:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bo/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bo/dev_ws/src/my_bot/install/my_bot
+[3.155s] Invoking command in '/home/bo/dev_ws/src/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ros2_ws/install/my_robot_controller:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bo/dev_ws/src/my_bot/build/my_bot -- -j5 -l5
+[3.261s] Invoked command in '/home/bo/dev_ws/src/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ros2_ws/install/my_robot_controller:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bo/dev_ws/src/my_bot/build/my_bot -- -j5 -l5
+[3.284s] Invoking command in '/home/bo/dev_ws/src/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ros2_ws/install/my_robot_controller:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bo/dev_ws/src/my_bot/build/my_bot
+[3.303s] -- Install configuration: ""
+[3.304s] -- Execute custom install script
+[3.305s] -- Symlinking: /home/bo/dev_ws/src/my_bot/install/my_bot/share/my_bot/config/empty.yaml
+[3.328s] -- Symlinking: /home/bo/dev_ws/src/my_bot/install/my_bot/share/my_bot/config/gz_bridge.yaml
+[3.345s] -- Symlinking: /home/bo/dev_ws/src/my_bot/install/my_bot/share/my_bot/config/view_bot.rviz
+[3.367s] -- Symlinking: /home/bo/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[3.389s] -- Symlinking: /home/bo/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/inertial_macro.xacro
+[3.409s] -- Symlinking: /home/bo/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/lidar.xacro
+[3.430s] -- Symlinking: /home/bo/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[3.452s] -- Symlinking: /home/bo/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/robot_core.xacro
+[3.471s] -- Symlinking: /home/bo/dev_ws/src/my_bot/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[3.492s] -- Symlinking: /home/bo/dev_ws/src/my_bot/install/my_bot/share/my_bot/launch/rsp.launch.py
+[3.512s] -- Symlinking: /home/bo/dev_ws/src/my_bot/install/my_bot/share/my_bot/worlds/empty.world
+[3.532s] -- Symlinking: /home/bo/dev_ws/src/my_bot/install/my_bot/share/my_bot/worlds/obsicles.sdf
+[3.552s] -- Symlinking: /home/bo/dev_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[3.571s] -- Symlinking: /home/bo/dev_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[3.598s] -- Symlinking: /home/bo/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[3.615s] -- Symlinking: /home/bo/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[3.637s] -- Symlinking: /home/bo/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/path.sh
+[3.658s] -- Symlinking: /home/bo/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/path.dsv
+[3.680s] -- Symlinking: /home/bo/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.bash
+[3.705s] -- Symlinking: /home/bo/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.fish
+[3.728s] -- Symlinking: /home/bo/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.sh
+[3.753s] -- Symlinking: /home/bo/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.zsh
+[3.775s] -- Symlinking: /home/bo/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.dsv
+[3.802s] -- Symlinking: /home/bo/dev_ws/src/my_bot/install/my_bot/share/my_bot/package.dsv
+[3.825s] -- Symlinking: /home/bo/dev_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[3.842s] -- Symlinking: /home/bo/dev_ws/src/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[3.864s] -- Symlinking: /home/bo/dev_ws/src/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[3.890s] -- Symlinking: /home/bo/dev_ws/src/my_bot/install/my_bot/share/my_bot/package.xml
+[3.915s] Invoked command in '/home/bo/dev_ws/src/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ros2_ws/install/my_robot_controller:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bo/dev_ws/src/my_bot/build/my_bot
