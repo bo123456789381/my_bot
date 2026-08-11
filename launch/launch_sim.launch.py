@@ -66,9 +66,29 @@ def generate_launch_description():
         executable="image_bridge",
         arguments=["/camera/image_raw"]
     )
+# Path to your controllers YAML file
+    controllers_yaml = os.path.join(
+        get_package_share_directory('my_bot'),
+        'config',
+        'my_controllers.yaml'
+    )
 
+    # Spawner for joint_broadcaster
+    joint_broad_spawner = Node(
+        package='controller_manager',
+        executable='spawner',
+        arguments=['joint_broad']
+    )
 
-
+    # Spawner for diff_cont with --param-file included
+    diff_drive_spawner = Node(
+        package='controller_manager',
+        executable='spawner',
+        arguments=[
+            'diff_cont',
+            '--param-file', controllers_yaml
+        ]
+    )
 
     # Launch them all!
     return LaunchDescription([
@@ -78,4 +98,6 @@ def generate_launch_description():
         spawn_entity,
         ros_gz_bridge,
         ros_gz_image_bridge,
+        diff_drive_spawner,
+        joint_broad_spawner
     ])
