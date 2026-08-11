@@ -86,7 +86,9 @@ def generate_launch_description():
         executable='spawner',
         arguments=[
             'diff_cont',
-            '--param-file', controllers_yaml
+            '--param-file', controllers_yaml,
+            '--controller-ros-args',
+            '-r /diff_cont/cmd_vel:=/cmd_vel' 
         ]
     )
 
